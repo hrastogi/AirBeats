@@ -1,0 +1,4 @@
+/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController stupid_pixel_detection]':
+/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:292: warning: control reaches end of non-void function
+/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController pixelDetection:]':
+/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:310: warning: unused variable 'pixel_value'

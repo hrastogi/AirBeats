@@ -1,0 +1,871 @@
+TARDemo
+v7
+r0
+t337431338.666755
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ARDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Info.plist ARDemo-Info.plist
+cCompileXIB /Users/HEenA/Miso_projects/airbeats/AirBeats/MainWindow.xib
+cCompileXIB /Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemoViewController.xib
+cCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal0.png Images/cymbal0.png
+cCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal1.png Images/cymbal1.png
+cCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum0.png Images/drum0.png
+cCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum1.png Images/drum1.png
+cCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum2.png Images/drum2.png
+cCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum3.png Images/drum3.png
+cCpResource build/Debug-iphoneos/ARDemo.app/cymbal0_sound.wav Sounds/cymbal0_sound.wav
+cCpResource build/Debug-iphoneos/ARDemo.app/cymbal1_sound.wav Sounds/cymbal1_sound.wav
+cCpResource build/Debug-iphoneos/ARDemo.app/drum0_sound.wav Sounds/drum0_sound.wav
+cCpResource build/Debug-iphoneos/ARDemo.app/drum1_sound.wav Sounds/drum1_sound.wav
+cCpResource build/Debug-iphoneos/ARDemo.app/drum2_sound.wav Sounds/drum2_sound.wav
+cCpResource build/Debug-iphoneos/ARDemo.app/drum3_sound.wav Sounds/drum3_sound.wav
+cCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Default.png Images/Default.png
+cProcessPCH /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch.gch ARDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch.gch ARDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/main.o /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoAppDelegate.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoViewController.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ImageUtils.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/DrumsView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/main.o /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoAppDelegate.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo normal armv6
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoViewController.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ImageUtils.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/DrumsView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo normal armv7
+cCreateUniversalBinary /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo normal "armv6 armv7"
+cGenerateDSYMFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app.dSYM /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo
+cProcessProductPackaging "/Users/HEenA/Library/MobileDevice/Provisioning Profiles/F7BF21B2-4A8C-4FDE-95ED-400E20D9EC2F.mobileprovision" /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/embedded.mobileprovision
+cTouch /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent
+cCodeSign /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC110B500000000000E44B0
+t1287721141
+s935088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004CC110220000000000030DE0
+t1287720994
+s200160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Users/HEenA/Library/MobileDevice/Provisioning Profiles/F7BF21B2-4A8C-4FDE-95ED-400E20D9EC2F.mobileprovision
+c000000004E3097B200000000000023D3
+t1311807410
+s9171
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemoViewController.xib
+c000000004E6C92640000000000004AC9
+t1315738212
+s19145
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemo_Prefix.pch
+c000000004E6C926400000000000000B5
+t1315738212
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.h
+c000000004E6C926400000000000001B4
+t1315738212
+s436
+i<UIKit/UIKit.h>
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m
+c000000004E6C92640000000000000A61
+t1315738212
+s2657
+i"ARDemoAppDelegate.h"
+i"ARDemoViewController.h"
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.h
+c000000004E6C92640000000000000325
+t1315738212
+s805
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i"ImageUtils.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m
+c000000004E6C92640000000000002C0D
+t1315738212
+s11277
+i"ARDemoViewController.h"
+i"ImageUtils.h"
+i"ARView.h"
+i"DrumsView.h"
+i<math.h>
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.h
+c000000004E6C9264000000000000012B
+t1315738212
+s299
+i<UIKit/UIKit.h>
+i"ImageUtils.h"
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m
+c000000004E6C92640000000000000314
+t1315738212
+s788
+i"ARView.h"
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.h
+c000000004E6C92640000000000000160
+t1315738212
+s352
+i<Foundation/Foundation.h>
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m
+c000000004E6C926400000000000004E4
+t1315738212
+s1252
+i"DrumsView.h"
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.h
+c000000004E6C92640000000000000270
+t1315738212
+s624
+i<UIKit/UIKit.h>
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m
+c000000004E6C9264000000000000106D
+t1315738212
+s4205
+i"ImageUtils.h"
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/Default.png
+c000000004E6C9338000000000000678D
+t1315738424
+s26509
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/cymbal0.png
+c000000004E6C92640000000000004211
+t1315738212
+s16913
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/cymbal1.png
+c000000004E6C92640000000000004285
+t1315738212
+s17029
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum0.png
+c000000004E6C92640000000000002CD1
+t1315738212
+s11473
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum1.png
+c000000004E6C92640000000000002E5E
+t1315738212
+s11870
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum2.png
+c000000004E6C92640000000000002DBE
+t1315738212
+s11710
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum3.png
+c000000004E6C9264000000000000317D
+t1315738212
+s12669
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/MainWindow.xib
+c000000004E6C92640000000000004E1D
+t1315738212
+s19997
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/cymbal0_sound.wav
+c000000004E6C92640000000000026D2C
+t1315738212
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/cymbal1_sound.wav
+c000000004E6C92640000000000026D2C
+t1315738212
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum0_sound.wav
+c000000004E6C92640000000000026D2C
+t1315738212
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum1_sound.wav
+c000000004E6C92640000000000026D2C
+t1315738212
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum2_sound.wav
+c000000004E6C92640000000000026D2C
+t1315738212
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum3_sound.wav
+c000000004E6C92640000000000026D2C
+t1315738212
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent
+t1315738538
+s418
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo
+t1315738537
+s38728
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo.LinkFileList
+c000000004E6C93A600000000000002FA
+t1315738534
+s762
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoAppDelegate.o
+t1315738537
+s52240
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoViewController.o
+t1315738537
+s67736
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARView.o
+t1315738537
+s39544
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/DrumsView.o
+t1315738537
+s42172
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ImageUtils.o
+t1315738537
+s11000
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/main.o
+t1315738537
+s6460
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo
+t1315738538
+s34172
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo.LinkFileList
+c000000004E6C93A600000000000002FA
+t1315738534
+s762
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoAppDelegate.o
+t1315738537
+s52160
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoViewController.o
+t1315738538
+s66172
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARView.o
+t1315738538
+s39496
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/DrumsView.o
+t1315738538
+s42084
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ImageUtils.o
+t1315738537
+s9912
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/main.o
+t1315738537
+s6444
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app
+t1315738538
+s816
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app.dSYM
+t1315738538
+s102
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo
+t1315738538
+s79228
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemoViewController.nib
+t1315738535
+s1180
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Default.png
+t1315738536
+s30694
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Info.plist
+t1315738534
+s777
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/MainWindow.nib
+t1315738535
+s1121
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/PkgInfo
+t1315738534
+s8
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ResourceRules.plist
+t1315738534
+s485
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal0.png
+t1315738535
+s10981
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal0_sound.wav
+t1315738535
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal1.png
+t1315738535
+s11417
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal1_sound.wav
+t1315738535
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum0.png
+t1315738535
+s6865
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum0_sound.wav
+t1315738535
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum1.png
+t1315738535
+s6928
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum1_sound.wav
+t1315738535
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum2.png
+t1315738535
+s6779
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum2_sound.wav
+t1315738535
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum3.png
+t1315738536
+s7373
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum3_sound.wav
+t1315738535
+s159020
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/embedded.mobileprovision
+t1315738538
+s9171
+
+N/Users/HEenA/Miso_projects/airbeats/AirBeats/main.m
+c000000004E6C92640000000000000143
+t1315738212
+s323
+i<UIKit/UIKit.h>
+
+N/var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch.gch
+t1315738537
+s9983704
+
+N/var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch.gch
+t1315738537
+s10446552
+
+NARDemo-Info.plist
+c000000004E6C9264000000000000038D
+t1315738212
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337431334#337431334#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app
+s337431338.303347
+e337431338.666703
+r1
+xCodeSign
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/ARDemo.app337431338#337431338#0(0"0(0#0#76"/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app8604204064#670"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Ryan  Tsukamoto (2GUDWM6FGA)" --resource-rules=/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ResourceRules.plist --entitlements /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoAppDelegate.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337431337.286929
+e337431337.473569
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoAppDelegate.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m337431337#337431337#0(0"0(0#0#72"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m8605792992#1804"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv6 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoAppDelegate.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoViewController.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337431337.349894
+e337431337.627249
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoViewController.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController stupid_pixel_detection]':
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:221: warning: control reaches end of non-void function
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController pixelDetection:]':
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:239: warning: unused variable 'pixel_value'
+lSLF07#2@83"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m337431337#337431337#0(522"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController stupid_pixel_detection]':/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:221: warning: control reaches end of non-void function/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController pixelDetection:]':/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:239: warning: unused variable 'pixel_value'2(22@40"Control reaches end of non-void function337431337#139#131#0(6@75"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m337431012#221#0#221#0#40"control reaches end of non-void function0(22@29"Unused variable 'pixel_value'337431337#402#120#0(6@75"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m337431012#239#0#239#0#19"unused variable '*'0(0#0#75"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m8604495488#1810"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv6 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemoViewController.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337431337.550702
+e337431337.633926
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARView.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m337431337#337431337#0(0"0(0#0#61"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m8607727072#1782"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv6 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARView.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/DrumsView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337431337.627356
+e337431337.725090
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/DrumsView.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m337431337#337431337#0(0"0(0#0#64"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m8607122368#1788"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv6 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/DrumsView.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ImageUtils.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337431337.473686
+e337431337.550594
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ImageUtils.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m337431337#337431337#0(0"0(0#0#65"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m8609543296#1790"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv6 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ImageUtils.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/main.o /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337431337.285730
+e337431337.349786
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/main.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m337431337#337431337#0(0"0(0#0#51"/Users/HEenA/Miso_projects/airbeats/AirBeats/main.m8606045312#1770"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv6 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoAppDelegate.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337431337.706353
+e337431337.852439
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoAppDelegate.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m337431337#337431337#0(0"0(0#0#72"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m8605974688#1804"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv7 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoAppDelegate.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoAppDelegate.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoViewController.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337431337.852550
+e337431338.083811
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoViewController.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController stupid_pixel_detection]':
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:221: warning: control reaches end of non-void function
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController pixelDetection:]':
+o/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:239: warning: unused variable 'pixel_value'
+lSLF07#2@83"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m337431337#337431338#0(522"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController stupid_pixel_detection]':/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:221: warning: control reaches end of non-void function/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m: In function '-[ARDemoViewController pixelDetection:]':/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m:239: warning: unused variable 'pixel_value'2(22@40"Control reaches end of non-void function337431337#139#131#0(6@75"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m337431012#221#0#221#0#40"control reaches end of non-void function0(22@29"Unused variable 'pixel_value'337431338#402#120#0(6@75"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m337431012#239#0#239#0#19"unused variable '*'0(0#0#75"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m8603145920#1810"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv7 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARDemoViewController.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemoViewController.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337431337.966885
+e337431338.056147
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARView.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m337431337#337431338#0(0"0(0#0#61"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m8609755616#1782"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv7 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ARView.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARView.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/DrumsView.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337431338.056262
+e337431338.137857
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/DrumsView.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m337431338#337431338#0(0"0(0#0#64"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m8607198496#1788"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv7 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/DrumsView.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/DrumsView.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ImageUtils.o /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337431337.890246
+e337431337.966765
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ImageUtils.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m337431337#337431337#0(0"0(0#0#65"/Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m8606944320#1790"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv7 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/Classes/ImageUtils.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ImageUtils.o0#
+
+CCompileC build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/main.o /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337431337.634033
+e337431337.706241
+r1
+xCompileC
+xbuild/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/main.o
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m337431337#337431337#0(0"0(0#0#51"/Users/HEenA/Miso_projects/airbeats/AirBeats/main.m8606268800#1770"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv7 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -include /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/main.m -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemoViewController.xib
+s337431334.822550
+e337431335.252955
+r1
+xCompileXIB
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemoViewController.xib
+lSLF07#2@35"CompileXIB ARDemoViewController.xib337431334#337431335#0(0"0(0#0#69"/Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemoViewController.xib8609793376#579"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemoViewController.nib /Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemoViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/HEenA/Miso_projects/airbeats/AirBeats/MainWindow.xib
+s337431334.821746
+e337431335.284112
+r1
+xCompileXIB
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib337431334#337431335#0(0"0(0#0#59"/Users/HEenA/Miso_projects/airbeats/AirBeats/MainWindow.xib8610036928#559"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/MainWindow.nib /Users/HEenA/Miso_projects/airbeats/AirBeats/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Default.png Images/Default.png
+s337431335.923903
+e337431336.169389
+r1
+xCopyPNGFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Default.png
+xImages/Default.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/ARDemo.app/Default.png Images/Default.png337431335#337431336#0(0"0(0#0#63"/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/Default.png8605986176#586"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/HEenA/Miso_projects/airbeats/AirBeats/Images/Default.png /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Default.png0#
+
+CCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal0.png Images/cymbal0.png
+s337431335.253056
+e337431335.718675
+r1
+xCopyPNGFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal0.png
+xImages/cymbal0.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/ARDemo.app/cymbal0.png Images/cymbal0.png337431335#337431335#0(0"0(0#0#63"/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/cymbal0.png8607610496#586"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/HEenA/Miso_projects/airbeats/AirBeats/Images/cymbal0.png /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal0.png0#
+
+CCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal1.png Images/cymbal1.png
+s337431335.284217
+e337431335.773955
+r1
+xCopyPNGFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal1.png
+xImages/cymbal1.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/ARDemo.app/cymbal1.png Images/cymbal1.png337431335#337431335#0(0"0(0#0#63"/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/cymbal1.png8607390048#586"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/HEenA/Miso_projects/airbeats/AirBeats/Images/cymbal1.png /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/cymbal1.png0#
+
+CCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum0.png Images/drum0.png
+s337431335.718773
+e337431335.824084
+r1
+xCopyPNGFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum0.png
+xImages/drum0.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/ARDemo.app/drum0.png Images/drum0.png337431335#337431335#0(0"0(0#0#61"/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum0.png8607195808#582"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum0.png /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum0.png0#
+
+CCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum1.png Images/drum1.png
+s337431335.774058
+e337431335.907285
+r1
+xCopyPNGFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum1.png
+xImages/drum1.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/ARDemo.app/drum1.png Images/drum1.png337431335#337431335#0(0"0(0#0#61"/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum1.png8609803616#582"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum1.png /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum1.png0#
+
+CCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum2.png Images/drum2.png
+s337431335.824188
+e337431335.913785
+r1
+xCopyPNGFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum2.png
+xImages/drum2.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/ARDemo.app/drum2.png Images/drum2.png337431335#337431335#0(0"0(0#0#61"/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum2.png8607216384#582"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum2.png /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum2.png0#
+
+CCopyPNGFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum3.png Images/drum3.png
+s337431335.907392
+e337431336.006425
+r1
+xCopyPNGFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum3.png
+xImages/drum3.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/ARDemo.app/drum3.png Images/drum3.png337431335#337431336#0(0"0(0#0#61"/Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum3.png8607273728#582"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/HEenA/Miso_projects/airbeats/AirBeats/Images/drum3.png /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/drum3.png0#
+
+CCpResource build/Debug-iphoneos/ARDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s337431334.755238
+e337431334.821643
+r1
+xCpResource
+xbuild/Debug-iphoneos/ARDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist337431334#337431334#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist4913266056747185152#505"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCpResource build/Debug-iphoneos/ARDemo.app/cymbal0_sound.wav Sounds/cymbal0_sound.wav
+s337431335.913894
+e337431335.926142
+r1
+xCpResource
+xbuild/Debug-iphoneos/ARDemo.app/cymbal0_sound.wav
+xSounds/cymbal0_sound.wav
+lSLF07#2@29"Copy Sounds/cymbal0_sound.wav337431335#337431335#0(0"0(0#0#69"/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/cymbal0_sound.wav8609642048#485"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/cymbal0_sound.wav /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCpResource build/Debug-iphoneos/ARDemo.app/cymbal1_sound.wav Sounds/cymbal1_sound.wav
+s337431335.914749
+e337431335.926278
+r1
+xCpResource
+xbuild/Debug-iphoneos/ARDemo.app/cymbal1_sound.wav
+xSounds/cymbal1_sound.wav
+lSLF07#2@29"Copy Sounds/cymbal1_sound.wav337431335#337431335#0(0"0(0#0#69"/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/cymbal1_sound.wav8609235616#485"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/cymbal1_sound.wav /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCpResource build/Debug-iphoneos/ARDemo.app/drum0_sound.wav Sounds/drum0_sound.wav
+s337431335.916458
+e337431335.930216
+r1
+xCpResource
+xbuild/Debug-iphoneos/ARDemo.app/drum0_sound.wav
+xSounds/drum0_sound.wav
+lSLF07#2@27"Copy Sounds/drum0_sound.wav337431335#337431335#0(0"0(0#0#67"/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum0_sound.wav8608973824#483"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum0_sound.wav /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCpResource build/Debug-iphoneos/ARDemo.app/drum1_sound.wav Sounds/drum1_sound.wav
+s337431335.918295
+e337431335.929293
+r1
+xCpResource
+xbuild/Debug-iphoneos/ARDemo.app/drum1_sound.wav
+xSounds/drum1_sound.wav
+lSLF07#2@27"Copy Sounds/drum1_sound.wav337431335#337431335#0(0"0(0#0#67"/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum1_sound.wav8607659424#483"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum1_sound.wav /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCpResource build/Debug-iphoneos/ARDemo.app/drum2_sound.wav Sounds/drum2_sound.wav
+s337431335.920178
+e337431335.935651
+r1
+xCpResource
+xbuild/Debug-iphoneos/ARDemo.app/drum2_sound.wav
+xSounds/drum2_sound.wav
+lSLF07#2@27"Copy Sounds/drum2_sound.wav337431335#337431335#0(0"0(0#0#67"/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum2_sound.wav8607579008#483"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum2_sound.wav /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCpResource build/Debug-iphoneos/ARDemo.app/drum3_sound.wav Sounds/drum3_sound.wav
+s337431335.922036
+e337431335.935829
+r1
+xCpResource
+xbuild/Debug-iphoneos/ARDemo.app/drum3_sound.wav
+xSounds/drum3_sound.wav
+lSLF07#2@27"Copy Sounds/drum3_sound.wav337431335#337431335#0(0"0(0#0#67"/Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum3_sound.wav8607358336#483"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/HEenA/Miso_projects/airbeats/AirBeats/Sounds/drum3_sound.wav /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
+CCreateUniversalBinary /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo normal "armv6 armv7"
+s337431338.235532
+e337431338.240904
+r1
+xCreateUniversalBinary
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/ARDemo.app/ARDemo normal "armv6 armv7"337431338#337431338#0(0"0(0#0#56"/Users/HEenA/Miso_projects/airbeats/AirBeats/armv6 armv78608987680#534"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo -output /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo0#
+
+CGenerateDSYMFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app.dSYM /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo
+s337431338.241011
+e337431338.285997
+r1
+xGenerateDSYMFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app.dSYM
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/ARDemo.app.dSYM build/Debug-iphoneos/ARDemo.app/ARDemo337431338#337431338#0(0"0(0#0#83"/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo8607267936#377"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ARDemo -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app.dSYM0#
+
+CLd /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo normal armv6
+s337431337.725201
+e337431337.890118
+r1
+xLd
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo
+xnormal
+xarmv6
+lSLF07#2@124"Link /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo337431337#337431337#0(0"0(0#0#0"8605860608#973"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -filelist /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework CoreVideo -framework CoreMedia -framework AudioToolbox -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv6/ARDemo0#
+
+CLd /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo normal armv7
+s337431338.137959
+e337431338.235406
+r1
+xLd
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo
+xnormal
+xarmv7
+lSLF07#2@124"Link /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo337431338#337431338#0(0"0(0#0#0"8606587584#973"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -filelist /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework CoreVideo -framework CoreMedia -framework AudioToolbox -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/Objects-normal/armv7/ARDemo0#
+
+CProcessInfoPlistFile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Info.plist ARDemo-Info.plist
+s337431334.759583
+e337431334.771596
+r1
+xProcessInfoPlistFile
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Info.plist
+xARDemo-Info.plist
+lSLF07#2@25"Process ARDemo-Info.plist337431334#337431334#0(0"0(0#0#62"/Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemo-Info.plist8601277696#582"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ARDemo-Info.plist -genpkginfo /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/ResourceRules.plist -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch.gch ARDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337431336.169580
+e337431337.210160
+r1
+xProcessPCH
+x/var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch.gch
+xARDemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile ARDemo_Prefix.pch337431336#337431337#0(0"0(0#0#62"/Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemo_Prefix.pch8607104800#1663"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv6 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -c /Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemo_Prefix.pch -o /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-cwcoohwnpfvclfewfbofcrpforuf/ARDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch.gch ARDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337431336.170747
+e337431337.285620
+r1
+xProcessPCH
+x/var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch.gch
+xARDemo_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile ARDemo_Prefix.pch337431336#337431337#0(0"0(0#0#62"/Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemo_Prefix.pch8606933056#1663"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-generated-files.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-own-target-headers.hmap -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-all-target-headers.hmap -iquote /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo-project-headers.hmap -F/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/include -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources/armv7 -I/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/DerivedSources -c /Users/HEenA/Miso_projects/airbeats/AirBeats/ARDemo_Prefix.pch -o /var/folders/6v/6vS+raFgHDC1XgmqRDX5+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ARDemo_Prefix-daiagtbsriorblhdafamhsqtiont/ARDemo_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/HEenA/Library/MobileDevice/Provisioning Profiles/F7BF21B2-4A8C-4FDE-95ED-400E20D9EC2F.mobileprovision" /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/embedded.mobileprovision
+s337431338.286114
+e337431338.287641
+r1
+xProcessProductPackaging
+x/Users/HEenA/Library/MobileDevice/Provisioning Profiles/F7BF21B2-4A8C-4FDE-95ED-400E20D9EC2F.mobileprovision
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/embedded.mobileprovision
+lSLF07#2@191"ProcessProductPackaging "/Users/HEenA/Library/MobileDevice/Provisioning Profiles/F7BF21B2-4A8C-4FDE-95ED-400E20D9EC2F.mobileprovision" build/Debug-iphoneos/ARDemo.app/embedded.mobileprovision337431338#337431338#0(0"0(0#0#101"/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/embedded.mobileprovision8606573216#434"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/HEenA/Library/MobileDevice/Provisioning Profiles/F7BF21B2-4A8C-4FDE-95ED-400E20D9EC2F.mobileprovision" -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent
+s337431338.291563
+e337431338.303245
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent337431338#337431338#0(0"0(0#0#104"/Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent8605910016#441"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/HEenA/Miso_projects/airbeats/AirBeats/build/ARDemo.build/Debug-iphoneos/ARDemo.build/ARDemo.xcent0#
+
+CTouch /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app
+s337431338.287705
+e337431338.291471
+r1
+xTouch
+x/Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app
+lSLF07#2@82"Touch /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app337431338#337431338#0(0"0(0#0#0"8604369920#275"    cd /Users/HEenA/Miso_projects/airbeats/AirBeats    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/HEenA/Miso_projects/airbeats/AirBeats/build/Debug-iphoneos/ARDemo.app0#
+
